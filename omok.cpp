@@ -528,8 +528,7 @@ int discriminate(int s[][20]) {
 			
 			
 			
-			
-			
+						
 		}
 	}
 	
