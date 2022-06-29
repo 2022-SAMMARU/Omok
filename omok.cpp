@@ -227,11 +227,19 @@ int show_method(){
 	printf("*******************************\n") ;
 	printf("나가시려면 스페이스바를 누르세요. \n") ;
 	printf("*******************************\n") ;
-	a = getch() ;
-	if(a == 32){
-		system("cls");
-	} return 0 ;
+	while(1){
+		a = getch() ;
+		if(a == 32){
+			system("cls");
+			return 0 ;
+		}
+		else{
+			continue ;
+		} 
+	}
+	
 }
+
 void start(){
 	int b ;
 	while(1){
@@ -244,6 +252,7 @@ void start(){
 		} 
 	}
 }
+
 void moving(int a[][20]) {
 		int move ;
 		
