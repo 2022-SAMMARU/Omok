@@ -573,10 +573,12 @@ int main(){
 		b = discriminate(a) ;
 		if(b == 1){
 			show_result(a);
+			system("pause") ;
 			return 0 ;
 		} 
 		else if(b == 0){
-			show_result_1();	
+			show_result_1();
+			system("pause") ;	
 			return 0 ;
 		} 
 		mover(a) ; 
@@ -585,10 +587,12 @@ int main(){
 		b = discriminate(a) ;
 		if(b == 1){
 			show_result(a);
+			system("pause") ;
 			return 0 ;
 		} 
 		else if(b == 0){
-			show_result_1();	
+			show_result_1();
+			system("pause") ;	
 			return 0 ;
 		}
 		mover(a) ;
